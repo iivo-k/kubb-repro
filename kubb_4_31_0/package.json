@@ -1,0 +1,21 @@
+{
+  "name": "kubb_repro",
+  "version": "0.1.0",
+  "private": true,
+  "moduleResolution": "bundler",
+  "scripts": {
+    "generate": "kubb generate && tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@kubb/cli": "4.31.0",
+    "@kubb/core": "4.31.0",
+    "@kubb/plugin-oas": "4.31.0",
+    "@kubb/plugin-zod": "4.31.0",
+    "prettier": "3.7.4",
+    "@types/node": "22.13.14",
+    "typescript": "5.9.3"
+  }
+}
