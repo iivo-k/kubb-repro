@@ -1,0 +1,25 @@
+openapi: 3.0.3
+info:
+  title: Repro API
+  version: v1.0
+components:
+  schemas:
+    Parcel:
+      $ref: "api-definitions.yml#/components/schemas/Parcel"
+paths:
+  /v1/returns/type-a:
+    post:
+      operationId: createReturnTypeA
+      requestBody:
+        $ref: "api-definitions.yml#/components/requestBodies/RequestABody"
+      responses:
+        "200":
+          $ref: "api-definitions.yml#/components/responses/createReturnResponse"
+  /v1/returns/type-b:
+    post:
+      operationId: createReturnTypeB
+      requestBody:
+        $ref: "api-definitions.yml#/components/requestBodies/RequestBBody"
+      responses:
+        "200":
+          $ref: "api-definitions.yml#/components/responses/createReturnResponse"

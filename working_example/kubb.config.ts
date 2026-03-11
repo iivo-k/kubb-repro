@@ -7,7 +7,7 @@ export default defineConfig(() => {
     {
       root: ".",
       input: {
-        path: "../openapi/example-api.yaml",
+        path: "./openapi/example-api.yaml",
       },
       output: {
         path: "./src/gen",

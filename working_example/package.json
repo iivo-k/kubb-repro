@@ -10,10 +10,10 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
-    "@kubb/cli": "4.31.0",
-    "@kubb/core": "4.31.0",
-    "@kubb/plugin-oas": "4.31.0",
-    "@kubb/plugin-zod": "4.31.0",
+    "@kubb/cli": "4.33.2",
+    "@kubb/core": "4.33.2",
+    "@kubb/plugin-oas": "4.33.2",
+    "@kubb/plugin-zod": "4.33.2",
     "prettier": "3.7.4",
     "@types/node": "22.13.14",
     "typescript": "5.9.3"
